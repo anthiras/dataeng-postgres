@@ -1,10 +1,10 @@
 # Data modelling with Postgres
 
-This repo contains my solution for the Data modelling with Postgres project of the Udacity Data Engineering Nanodegree.
+This repo contains my solution for the Data modelling with Postgres project of the [Udacity Data Engineering Nanodegree](https://www.udacity.com/course/data-engineer-nanodegree--nd027).
 
 ## Purpose
 
-The project involves an imaginary music streaming startup called Sparkify. Sparkify is interested in analytical insights into the streaming habits of the users. Sparkify has song metadata as well as user activity logs, both as JSON files. We need to setup a database schema and an ETL pipeline to convert these file into a database that is usable for answering analytical queries.
+The project involves an imaginary music streaming startup called Sparkify. Sparkify is interested in analytical insights into the streaming habits of the users. Sparkify has song metadata as well as user activity logs, both as JSON files. Data is a subset of the [Million Song Dataset](http://millionsongdataset.com/) [1] We need to setup a database schema and an ETL pipeline to convert these file into a database that is usable for answering analytical queries.
 
 ## Database schema design
 
@@ -130,3 +130,7 @@ python3 etl.py
 ```
 
 The repo also contains two notebooks which may be run using Jupyter Notebook.
+
+## References
+
+[1] Thierry Bertin-Mahieux, Daniel P.W. Ellis, Brian Whitman, and Paul Lamere. The Million Song Dataset. In Proceedings of the 12th International Society for Music Information Retrieval Conference (ISMIR 2011), 2011.
